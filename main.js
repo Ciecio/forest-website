@@ -22,7 +22,6 @@ const adventures = document.querySelector('.adventures')
 //Buttons
 const burgerbtn = document.querySelector('.nav__burgerbtn')
 
-
 const handleNav = () => {
 	navbar.classList.toggle('nav__navbar-show')
 
@@ -72,7 +71,6 @@ const scrollSpyMobile = () => {
 		navbar1.classList.add('nav__element-active')
 	}
 }
-
 
 burgerbtn.addEventListener('click', handleNav)
 window.addEventListener('scroll', scrollSpy)
