@@ -1,0 +1,238 @@
+@media (min-width: 576px) and (max-width: 768px) {
+	.section-title {
+		font-size: 1.7rem;
+	}
+
+	//NAV
+	.nav {
+		&__element {
+			display: none;
+		}
+
+		&__burgerbtn {
+			display: flex;
+		}
+
+		&__logo {
+			font-size: 1.7rem;
+
+			.fa-tree {
+				font-size: 1.7rem;
+			}
+		}
+	}
+
+	.header {
+		&__heading {
+			font-size: 1.7rem;
+		}
+
+		&__smallheading {
+			font-size: 1.19rem;
+		}
+	}
+
+	main {
+		.aboutus {
+			&__title {
+				margin: 0;
+				padding: 0.7em;
+			}
+
+			&__box {
+				flex-direction: column;
+			}
+
+			&__contentbox {
+				width: 80%;
+				margin: 0 0 1em;
+				justify-content: center;
+			}
+
+			&__textbox {
+				margin-bottom: 1em;
+				width: 80%;
+				text-align: center;
+
+				&-heading {
+					margin-top: 0.5em;
+					font-size: 1.2rem;
+				}
+
+				&-text {
+					margin: 0.5em 0;
+					font-size: 0.85rem;
+				}
+			}
+
+			&__img {
+				margin: 0;
+				padding: 0.5em 0 0.5em 0em;
+				width: 200%;
+			}
+		}
+
+		.adventures {
+			&__heading {
+				width: 80%;
+				&-text {
+					font-size: 1.2rem;
+				}
+			}
+		}
+
+		.offer {
+
+			&__card {
+				width: 230px;
+			}
+
+			&__cardbox {
+				flex-wrap: wrap;
+			}
+
+			&__redirectbtn {
+				font-size: 1.17rem;
+			}
+		}
+
+		.sitemap {
+			&__title {
+				font-size: 1.7rem;
+
+				.fa-tree {
+					font-size: 1.7rem;
+				}
+			}
+
+			&__heading {
+				font-size: 0.8rem;
+			}
+
+			&__element {
+				font-size: 0.6rem;
+			}
+		}
+	}
+
+	.footer {
+		&__text {
+			font-size: 0.65rem;
+		}
+
+		&__copy {
+			font-size: 0.6rem;
+		}
+	}
+
+	//CONTACT
+	.contact {
+		&__box {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			padding: 0 1em;
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		&__textbox {
+			display: flex;
+			margin-right: 0;
+			padding: 0 1em;
+			height: auto;
+			width: 100%;
+			border-bottom: 1px solid black;
+		}
+
+		&__text {
+			font-size: 0.9rem;
+
+			&:last-child{
+				margin-bottom: 1em;
+			}
+		}
+
+		&__imgbox {
+			margin: 0 auto;
+			padding: 0 1em;
+			width: 100%;
+			border-bottom: 1px solid black;
+
+			&-map {
+				min-width: 250px;
+				width: 80%;
+				height: 80%;
+				min-height: 350px;
+			}
+		}
+
+		&__title {
+			padding: 1em;
+		}
+	}
+
+	.form {
+		&__inputbox {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: 1em 2em;
+			width: 80%;
+		}
+
+		&__inputarea {
+			width: 85%;
+
+			&--four {
+				width: 87%;
+			}
+		}
+
+		&__label {
+			font-size: 1rem;
+
+			&-icon {
+				font-size: 1.2rem;
+			}
+		}
+
+		&__input {
+			width: 90%;
+		}
+
+		&__textarea {
+			max-height: 160px;
+			min-height: 160px;
+		}
+
+		&__control-buttons {
+			flex-direction: column;
+			width: 80%;
+		}
+	
+
+		&__btn {
+			margin: 1em;
+			width: 60%;
+			font-size: 0.9rem;
+
+			&-close{
+				width: 100%;
+			}
+		}
+	}
+
+	.offersite {
+
+		&__card {
+			width: 230px;
+		}
+
+		&__offersiteox {
+			flex-wrap: wrap;
+		}
+	}
+}

@@ -1,0 +1,1068 @@
+.offersite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(185, 185, 185);
+}
+.offersite__cardbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+  padding: 1em 1em;
+  width: 100%;
+}
+.offersite__card {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em 1em;
+  margin: 1em;
+  height: 90%;
+  max-height: 252px;
+  width: 26%;
+  background-color: rgb(53, 52, 52);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 2px 2px 8px #ddd;
+  transition: transform 0.5s;
+}
+.offersite__card:hover {
+  transform: scale(1.1);
+}
+.offersite__title {
+  margin-top: 0.5em;
+  font-size: 1.3rem;
+  color: rgb(56, 240, 56);
+}
+.offersite__price {
+  padding: 0.2em;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+}
+.offersite__price::first-letter {
+  font-size: 2rem;
+  color: lime;
+}
+.offersite__price-letter {
+  padding-bottom: 10px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.offersite__list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.offersite__list-outof {
+  color: rgb(160, 156, 156);
+  margin: 0 auto;
+}
+.offersite__list-in {
+  padding: 0;
+  margin: 0 auto;
+  color: #fff;
+}
+.offersite__list .fa-check {
+  margin-right: 0.2em;
+  color: lime;
+  font-size: 0.7rem;
+}
+.offersite__list .fa-minus {
+  margin-right: 0.2em;
+  font-size: 0.7rem;
+}
+.offersite li {
+  padding: 0.2em 0em;
+  font-size: 0.7em;
+}
+.offersite__btn {
+  margin: 1.5em;
+  padding: 0.5em 2em;
+  background: none;
+  font-size: 0.8rem;
+  color: #ddd;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #ddd;
+  transition: background-color 0.5s, color 0.5s;
+  cursor: pointer;
+}
+.offersite__btn:hover {
+  background-color: rgb(8, 223, 8);
+  color: #333;
+}
+
+.contact__wrapper {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contact__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em auto 0;
+  padding: 0 1em;
+  width: 90%;
+  border-bottom: 2px solid black;
+}
+.contact__textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1em;
+  margin-right: 1em;
+  width: 50%;
+}
+.contact__text {
+  font-size: 1.3rem;
+  padding: 0.5em 1em;
+  text-align: center;
+}
+.contact__imgbox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 1em;
+  padding: 0 1em;
+  width: 50%;
+}
+.contact__imgbox-map {
+  margin: 2em;
+}
+.contact__title {
+  padding: 1em 2em;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.form__errortext {
+  visibility: hidden;
+  padding: 1em 2em;
+}
+.form__errortext--show {
+  visibility: visible;
+  color: royalblue;
+}
+.form__popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  visibility: hidden;
+}
+.form__popup--show {
+  visibility: visible;
+}
+.form__inputbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 0.6em 2em;
+  width: 90%;
+  background-color: rgb(209, 203, 203);
+  border: 2px solid black;
+}
+.form__inputarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  width: 30%;
+}
+.form__inputarea--four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.form__label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5em;
+}
+.form__label-icon {
+  margin-right: 0.3em;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.form__input {
+  padding: 0.5em;
+  width: 90%;
+  border-radius: 5px;
+}
+.form__textarea {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  max-height: 190px;
+  min-height: 190px;
+  min-width: 88%;
+  max-width: 88%;
+  border-radius: 5px;
+}
+.form__control-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.form__btn {
+  margin: 0.5em;
+  padding: 0.5em 2em;
+  width: 40%;
+  background-color: royalblue;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form__btn-close {
+  width: 80%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  list-style: none;
+  font-family: sans-serif;
+  font-weight: normal;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-padding-top: 70px;
+}
+
+body {
+  background-color: #fff;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.section-title {
+  padding: 1em 2em 0.5em;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid black;
+  z-index: 100;
+}
+.nav__wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1em 2em;
+  height: 70px;
+}
+.nav__navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 2000px;
+  padding: 1em;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(172, 171, 171);
+  transition: transform 0.5s;
+}
+.nav__navbar-show {
+  transform: translateX(-2000px);
+}
+.nav__navbar-element {
+  padding: 0.5em 1em;
+  color: #fff;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.nav__element {
+  padding: 2.2em 2em;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.nav__element-active {
+  background-color: black;
+  color: rgb(172, 171, 171);
+}
+.nav__logo {
+  margin-right: auto;
+  padding: 1em 1em 1em 0.5em;
+  font-size: 2rem;
+}
+.nav__logo .fa-tree {
+  font-size: 2rem;
+  margin-right: 0.2em;
+}
+.nav__burgerbtn {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 15px;
+  padding: 0.5em;
+  background-color: #333;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.5s;
+  z-index: 1000;
+}
+.nav__burgerbtn:focus {
+  outline: none;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.nav__burgerbtn:hover--bars::after, .nav__burgerbtn:hover--bars::before {
+  width: 100%;
+}
+.nav__burgerbtn--box {
+  position: relative;
+  width: 32px;
+  height: 24px;
+}
+.nav__burgerbtn--bars, .nav__burgerbtn--bars::after, .nav__burgerbtn--bars::before {
+  position: absolute;
+  right: 0;
+  height: 3px;
+  content: "";
+  background-color: rgb(255, 255, 255);
+  transition: width 0.3s;
+}
+.nav__burgerbtn--bars {
+  width: 100%;
+}
+.nav__burgerbtn--bars::after {
+  top: 11px;
+  width: 60%;
+}
+.nav__burgerbtn--bars::before {
+  top: 22px;
+  width: 30%;
+  transition-delay: 0.1s;
+}
+
+.header {
+  position: relative;
+  top: 70px;
+  display: flex;
+  margin-bottom: 70px;
+  overflow: hidden;
+}
+.header__hero-img {
+  display: flex;
+  background-image: url("./jungle 1920.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  width: 100%;
+  z-index: 1;
+}
+.header__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__shadow {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -10;
+}
+.header__smallheading {
+  padding: 0 2em;
+  color: rgb(228, 226, 226);
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+.header__heading {
+  padding: 0 1.4em;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main .aboutus {
+  padding: 1em 2em;
+  margin-bottom: 2em;
+}
+main .aboutus__title {
+  margin-bottom: 0.5em;
+}
+main .aboutus__box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .aboutus__contentbox, main .aboutus__textbox {
+  display: flex;
+  margin: 0 auto;
+  width: 45%;
+}
+main .aboutus__contentbox {
+  align-items: center;
+}
+main .aboutus__textbox {
+  flex-direction: column;
+}
+main .aboutus__textbox-heading {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+main .aboutus__textbox-text {
+  margin: 0 3em 1em 0;
+  padding: 0.5em 0;
+  line-height: 2em;
+  text-align: justify;
+  font-size: 0.82rem;
+}
+main .aboutus__img {
+  padding: 1em 1em 1em 0;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+}
+main .adventures {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6em 1em;
+  background-image: url("./girl 1920.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  z-index: 1;
+}
+main .adventures__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  border: 1px solid #fff;
+}
+main .adventures__heading-text {
+  padding: 1em;
+  color: #fff;
+  font-size: 1.7rem;
+}
+main .adventures__shadow {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -10;
+}
+main .offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .offer__cardbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1em 1em;
+  width: 100%;
+}
+main .offer__card {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em 1em;
+  margin: 1em;
+  height: 90%;
+  max-height: 252px;
+  width: 21%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.5s;
+  box-shadow: 2px 2px 8px #ddd;
+}
+main .offer__card:hover {
+  transform: scale(1.1);
+}
+main .offer__title {
+  margin-top: 0.5em;
+  font-size: 1.3rem;
+}
+main .offer__price {
+  padding: 0.2em;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+main .offer__price::first-letter {
+  font-size: 2rem;
+}
+main .offer__price-letter {
+  padding-bottom: 10px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+main .offer__list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+main .offer__list-outof {
+  color: rgb(160, 156, 156);
+  margin: 0 auto;
+}
+main .offer__list-in {
+  margin: 0 auto;
+}
+main .offer__list .fa-check {
+  margin-right: 0.2em;
+  color: lime;
+  font-size: 0.7rem;
+}
+main .offer__list .fa-minus {
+  margin-right: 0.2em;
+  font-size: 0.7rem;
+}
+main .offer li {
+  padding: 0.2em 2em;
+  font-size: 0.7em;
+}
+main .offer__btn {
+  margin: 1.5em;
+  padding: 0.5em 3.5em;
+  background: none;
+  font-size: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #ddd;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+main .offer__btn:hover {
+  background-color: rgb(8, 223, 8);
+}
+main .offer form {
+  width: 67%;
+}
+main .offer__redirectbtn {
+  margin-bottom: 2em;
+  padding: 0.5em 1em;
+  width: 100%;
+  background-color: #333;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0 0 5px black;
+  transition: transform 0.5s;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+main .offer__redirectbtn:hover {
+  transform: scale(1.1);
+}
+main .sitemap {
+  background-color: rgb(245, 242, 242);
+  padding: 2em 0;
+}
+main .sitemap__wrapper {
+  display: grid;
+  grid-template-columns: repeat(22, 1fr);
+  max-width: 1100px;
+}
+main .sitemap__title {
+  grid-column: 2/10;
+  margin-right: 2em;
+  padding: 1em 0 1em 0em;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+main .sitemap__title .fa-tree {
+  font-size: 2.4rem;
+  margin-right: 0.2em;
+  padding-left: 1em;
+}
+main .sitemap__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+main .sitemap__list-one {
+  grid-column: 11/13;
+}
+main .sitemap__list-two {
+  grid-column: 14/17;
+}
+main .sitemap__list-three {
+  grid-column: 18/20;
+}
+main .sitemap__heading {
+  padding: 1em 0 0.5em;
+  font-weight: bold;
+}
+main .sitemap__element {
+  padding: 0.5em 0;
+  color: rgba(80, 79, 79, 0.904);
+  font-size: 0.7rem;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(245, 242, 242);
+  color: rgba(112, 110, 110, 0.904);
+  border-top: 1px solid black;
+}
+.footer__text {
+  font-size: 0.75rem;
+}
+.footer__copy {
+  font-size: 0.7rem;
+}
+
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+  .nav__element {
+    display: none;
+  }
+  .nav__burgerbtn {
+    display: flex;
+  }
+  .nav__logo {
+    font-size: 1.5rem;
+  }
+  .nav__logo .fa-tree {
+    font-size: 1.5rem;
+  }
+  .header__hero-img {
+    background-image: url("./jungle small.jpg");
+  }
+  .header__heading {
+    font-size: 1.3rem;
+  }
+  .header__smallheading {
+    font-size: 0.91rem;
+  }
+  main .aboutus {
+    margin-bottom: 0;
+  }
+  main .aboutus__title {
+    margin: 0;
+    padding: 0.7em;
+  }
+  main .aboutus__box {
+    flex-direction: column;
+  }
+  main .aboutus__contentbox {
+    margin: 0 0 1em;
+    justify-content: center;
+  }
+  main .aboutus__textbox {
+    margin-bottom: 1em;
+    width: 250px;
+    text-align: center;
+  }
+  main .aboutus__textbox-heading {
+    margin-top: 1em;
+    font-size: 1.1rem;
+  }
+  main .aboutus__textbox-text {
+    margin: 0.5em 0;
+    font-size: 0.75rem;
+  }
+  main .aboutus__img {
+    margin: 0;
+    padding: 0.5em 0 0.5em 0em;
+    width: 265px;
+  }
+  main .adventures {
+    background-image: url("./girl small.jpg");
+  }
+  main .adventures__heading {
+    width: 80%;
+  }
+  main .adventures__heading-text {
+    font-size: 1rem;
+  }
+  main .offer__cardbox {
+    flex-direction: column;
+  }
+  main .offer__card {
+    width: 203px;
+  }
+  main .offer__text {
+    font-size: 0.8rem;
+  }
+  main .offer__redirectbtn {
+    padding: 0.5em;
+    font-size: 1rem;
+  }
+  main .sitemap {
+    padding: 1em;
+  }
+  main .sitemap__title {
+    margin: 0 auto;
+    padding: 0.5em;
+    font-size: 1.5rem;
+  }
+  main .sitemap__title .fa-tree {
+    padding-left: 0;
+    font-size: 1.7rem;
+  }
+  main .sitemap__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .sitemap__heading {
+    font-size: 0.8rem;
+  }
+  main .sitemap__element {
+    padding: 0.7em 0;
+    font-size: 0.6rem;
+    text-align: center;
+  }
+  .footer__text {
+    font-size: 0.6rem;
+  }
+  .footer__copy {
+    font-size: 0.55rem;
+  }
+  .contact__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1em;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .contact__textbox {
+    display: flex;
+    margin-right: 0;
+    padding: 0 1em;
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+  .contact__text {
+    font-size: 0.9rem;
+  }
+  .contact__text:last-child {
+    margin-bottom: 1em;
+  }
+  .contact__imgbox {
+    margin: 0 auto;
+    padding: 0 1em;
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+  .contact__imgbox-map {
+    min-width: 250px;
+    width: 80%;
+    height: 80%;
+    min-height: 250px;
+  }
+  .contact__title {
+    padding: 1em;
+  }
+  .form__errortext {
+    font-size: 0.7rem;
+  }
+  .form__inputbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    width: 90%;
+  }
+  .form__inputarea {
+    width: 85%;
+  }
+  .form__inputarea--four {
+    width: 100%;
+  }
+  .form__label {
+    font-size: 0.8rem;
+  }
+  .form__label-icon {
+    font-size: 1rem;
+  }
+  .form__input {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+  .form__textarea {
+    max-height: 160px;
+    min-height: 160px;
+    font-size: 0.8rem;
+  }
+  .form__control-buttons {
+    flex-direction: column;
+    width: 80%;
+  }
+  .form__btn {
+    margin: 1em;
+    width: 60%;
+    font-size: 0.8rem;
+  }
+  .form__btn-close {
+    width: 100%;
+  }
+  .offersite__offersiteox {
+    flex-direction: column;
+  }
+  .offersite__card {
+    width: 203px;
+  }
+  .offersite__text {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .section-title {
+    font-size: 1.7rem;
+  }
+  .nav__element {
+    display: none;
+  }
+  .nav__burgerbtn {
+    display: flex;
+  }
+  .nav__logo {
+    font-size: 1.7rem;
+  }
+  .nav__logo .fa-tree {
+    font-size: 1.7rem;
+  }
+  .header__heading {
+    font-size: 1.7rem;
+  }
+  .header__smallheading {
+    font-size: 1.19rem;
+  }
+  main .aboutus__title {
+    margin: 0;
+    padding: 0.7em;
+  }
+  main .aboutus__box {
+    flex-direction: column;
+  }
+  main .aboutus__contentbox {
+    width: 80%;
+    margin: 0 0 1em;
+    justify-content: center;
+  }
+  main .aboutus__textbox {
+    margin-bottom: 1em;
+    width: 80%;
+    text-align: center;
+  }
+  main .aboutus__textbox-heading {
+    margin-top: 0.5em;
+    font-size: 1.2rem;
+  }
+  main .aboutus__textbox-text {
+    margin: 0.5em 0;
+    font-size: 0.85rem;
+  }
+  main .aboutus__img {
+    margin: 0;
+    padding: 0.5em 0 0.5em 0em;
+    width: 200%;
+  }
+  main .adventures__heading {
+    width: 80%;
+  }
+  main .adventures__heading-text {
+    font-size: 1.2rem;
+  }
+  main .offer__card {
+    width: 230px;
+  }
+  main .offer__cardbox {
+    flex-wrap: wrap;
+  }
+  main .offer__redirectbtn {
+    font-size: 1.17rem;
+  }
+  main .sitemap__title {
+    font-size: 1.7rem;
+  }
+  main .sitemap__title .fa-tree {
+    font-size: 1.7rem;
+  }
+  main .sitemap__heading {
+    font-size: 0.8rem;
+  }
+  main .sitemap__element {
+    font-size: 0.6rem;
+  }
+  .footer__text {
+    font-size: 0.65rem;
+  }
+  .footer__copy {
+    font-size: 0.6rem;
+  }
+  .contact__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1em;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .contact__textbox {
+    display: flex;
+    margin-right: 0;
+    padding: 0 1em;
+    height: auto;
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+  .contact__text {
+    font-size: 0.9rem;
+  }
+  .contact__text:last-child {
+    margin-bottom: 1em;
+  }
+  .contact__imgbox {
+    margin: 0 auto;
+    padding: 0 1em;
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+  .contact__imgbox-map {
+    min-width: 250px;
+    width: 80%;
+    height: 80%;
+    min-height: 350px;
+  }
+  .contact__title {
+    padding: 1em;
+  }
+  .form__inputbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 2em;
+    width: 80%;
+  }
+  .form__inputarea {
+    width: 85%;
+  }
+  .form__inputarea--four {
+    width: 87%;
+  }
+  .form__label {
+    font-size: 1rem;
+  }
+  .form__label-icon {
+    font-size: 1.2rem;
+  }
+  .form__input {
+    width: 90%;
+  }
+  .form__textarea {
+    max-height: 160px;
+    min-height: 160px;
+  }
+  .form__control-buttons {
+    flex-direction: column;
+    width: 80%;
+  }
+  .form__btn {
+    margin: 1em;
+    width: 60%;
+    font-size: 0.9rem;
+  }
+  .form__btn-close {
+    width: 100%;
+  }
+  .offersite__card {
+    width: 230px;
+  }
+  .offersite__offersiteox {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  main .aboutus__textbox-text {
+    font-size: 0.7rem;
+  }
+  main .adventures__heading {
+    width: 80%;
+  }
+  main .adventures__heading-text {
+    font-size: 1.4rem;
+  }
+  main .offer__card {
+    width: 203px;
+  }
+  .contact__text {
+    font-size: 1.1rem;
+  }
+  .contact__imgbox-map {
+    min-width: 300px;
+    width: 80%;
+    height: 80%;
+    min-height: 300px;
+  }
+  .form__errortext {
+    font-size: 0.8rem;
+  }
+  .form__label {
+    font-size: 1rem;
+  }
+  .form__label-icon {
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=main.css.map */

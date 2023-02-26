@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Group - informacje kontaktowe</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://kit.fontawesome.com/751d31e174.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav class="nav">
+        <div class="nav__navbar">
+            <a class="nav__navbar-element" href="/index.html">Main</a>
+            <a class="nav__navbar-element nav__element-active" id="navbar1" href="#">Home</a>
+            <a class="nav__navbar-element" id="navbar5" href="#contact">Kontakt</a>
+            <a class="nav__navbar-element" href="/offer.html">Oferta</a>
+        </div>
+
+        <div class="nav__wrapper wrapper">
+            <p class="nav__logo"><i class="fa-solid fa-tree"></i> Forest</p>
+            <a class="nav__element" href="/index.html">Main</a>
+            <a class="nav__element nav__element-active" id="nav1" href="#">Home</a>
+            <a class="nav__element" id="nav5" href="#contact">Kontakt</a>
+            <a class="nav__element" href="/offer.html">Oferta</a>
+            <button class="nav__burgerbtn">
+                <div class="nav__burgerbtn--box">
+                    <div class="nav__burgerbtn--bars"></div>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HEADER  -->
+    <header class="header">
+        <div class="header__hero-img">
+            <div class="header__shadow"></div>
+            <div class="header__wrapper wrapper">
+                <h3 class="header__smallheading">Forest Group</h3>
+                <h1 class="header__heading">Skontaktuj się z nami!</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+
+        <div class="wrapper contact__wrapper" id="contact">
+
+            <h2 class="form__heading section-title">Kontakt</h2>
+
+            <div class="contact__box">
+                <div class="contact__textbox">
+                    <p class="contact__text">Park Forest Group</p>
+                    <p class="contact__text">ul. Jasnogórska 2</p>
+                    <p class="contact__text">31-358 Kraków</p>
+                    <p class="contact__text"> Tel: 2137-69-420</p>
+                    <p class="contact__text">Email: mokebeitakciezapierdoli@gmail.com</p>
+                    <p class="contact__text">W przypadku jakichkolwiek pytań prosimy o skontaktowanie się drogą
+                        telefoniczną, mailową badź skorzystanie z poniższego formularza.</p>
+                </div>
+                <div class="contact__imgbox">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.8978424941183!2d19.892849199999997!3d50.088199499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a2d7f0d587f%3A0x15f4e7c36adff6d2!2sJasnog%C3%B3rska%202%2C%2031-358%20Krak%C3%B3w!5e0!3m2!1sen!2spl!4v1676567637505!5m2!1sen!2spl"
+                        width="360" height="360" style="border:0;" allowfullscreen=""
+                        referrerpolicy="no-referrer-when-downgrade" class="contact__imgbox-map"></iframe>
+                </div>
+
+            </div>
+
+            <h3 class="contact__title">Formularz kontaktowy</h3>
+
+
+
+            <div class="form">
+
+                <form class="form__inputbox">
+                    <div class="form__inputarea">
+                        <label for="username" class="form__label"><i
+                            class="fa-solid fa-signature form__label-icon"></i> Imię:</label>
+                        <input type="text" class="form__input" id="username" placeholder="Podaj imię">
+                        <p class="form__errortext">error</p>
+                    </div>
+
+                    <div class="form__inputarea">
+                        <label for="surname" class="form__label"><i
+                            class="fa-solid fa-signature form__label-icon"></i> Nazwisko:</label>
+                        <input type="text" class="form__input" id="surname" placeholder="Podaj nazwisko">
+                        <p class="form__errortext">error</p>
+                    </div>
+
+                    <div class="form__inputarea">
+                        <label for="email" class="form__label"><i
+                            class="fa-regular fa-envelope form__label-icon"></i> Adres e-mail:</label>
+                        <input type="email" class="form__input" id="email" placeholder="Podaj email">
+                        <p class="form__errortext">error</p>
+                    </div>
+
+                    <div class="form__inputarea form__inputarea--four"> <label class="form__label"><i
+                                class="fa-solid fa-question form__label-icon"></i>
+                            Pytanie:</label>
+                        <textarea class="form__textarea" id="textarea"></textarea>
+                        <p class="form__errortext"></p>
+                    </div>
+
+                    <div class="form__control-buttons">
+                        <button class="form__btn form__btn-send">Wyslij</button>
+                        <button class=" form__btn form__btn-clear">Wyczysc</button>
+                    </div>
+
+                    <div class="form__popup">
+                        <p class="form__label">Formularz zostal poprawnie wyslany</p>
+                        <button class="form__btn form__btn-close">Zamknij</button>
+                    </div>
+                  
+                </form>
+
+            </div>
+
+
+
+        </div>
+
+        <section class="sitemap">
+            <div class="sitemap__wrapper wrapper">
+
+                <h2 class="sitemap__title section-title"><i class="fa-solid fa-tree sitemap__logo"></i>Forest</h2>
+
+                <ul class="sitemap__list-one">
+                    <p class="sitemap__list1 sitemap__heading">O nas</p>
+                    <li class="sitemap__element">Historia</li>
+                    <li class="sitemap__element">Parki</li>
+                    <li class="sitemap__element">Opinie</li>
+                </ul>
+
+                <ul class="sitemap__list-two">
+                    <p class="sitemap__list2 sitemap__heading">Nasza firma</p>
+                    <li class="sitemap__element">Praca</li>
+                    <li class="sitemap__element">Kadry</li>
+                    <li class="sitemap__element">Zarząd</li>
+                </ul>
+
+                <ul class="sitemap__list-three">
+                    <p class="sitemap__list3 sitemap__heading">Dokumenty</p>
+                    <li class="sitemap__element">Wnioski</li>
+                    <li class="sitemap__element">Rezerwacje</li>
+                </ul>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text"><span class="footer__copy">&copy;2023</span> Forest Group Company Ltd</p>
+    </footer>
+    <script src="./navcontact.js"></script>
+</body>

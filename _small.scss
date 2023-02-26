@@ -1,0 +1,270 @@
+@media (max-width: 576px) {
+	.section-title {
+		font-size: 1.5rem;
+	}
+
+	//NAV
+	.nav {
+		&__element {
+			display: none;
+		}
+
+		&__burgerbtn {
+			display: flex;
+		}
+
+		&__logo {
+			font-size: 1.5rem;
+
+			.fa-tree {
+				font-size: 1.5rem;
+			}
+		}
+	}
+
+	.header {
+		&__hero-img {
+			background-image: url('./jungle\ small.jpg');
+		}
+
+		&__heading {
+			font-size: 1.3rem;
+		}
+
+		&__smallheading {
+			font-size: 0.91rem;
+		}
+	}
+
+	main {
+		.aboutus {
+			margin-bottom: 0;
+			&__title {
+				margin: 0;
+				padding: 0.7em;
+			}
+
+			&__box {
+				flex-direction: column;
+			}
+
+			&__contentbox {
+				margin: 0 0 1em;
+				justify-content: center;
+			}
+
+			&__textbox {
+				margin-bottom: 1em;
+				width: 250px;
+				text-align: center;
+
+				&-heading {
+					margin-top: 1em;
+					font-size: 1.1rem;
+				}
+
+				&-text {
+					margin: 0.5em 0;
+					font-size: 0.75rem;
+				}
+			}
+
+			&__img {
+				margin: 0;
+				padding: 0.5em 0 0.5em 0em;
+				width: 265px;
+			}
+		}
+
+		.adventures {
+			background-image: url('./girl\ small.jpg');
+			&__heading {
+				width: 80%;
+				&-text {
+					font-size: 1rem;
+				}
+			}
+		}
+
+		//OFFERS
+		.offer {
+			&__cardbox {
+				flex-direction: column;
+			}
+
+			&__card {
+				width: 203px;
+			}
+
+			&__text {
+				font-size: 0.8rem;
+			}
+
+			&__redirectbtn {
+				padding: 0.5em;
+				font-size: 1rem;
+			}
+		}
+
+		//SITEMAP
+		.sitemap {
+			padding: 1em;
+
+			&__title {
+				margin: 0 auto;
+				padding: 0.5em;
+				font-size: 1.5rem;
+
+				.fa-tree {
+					padding-left: 0;
+					font-size: 1.7rem;
+				}
+			}
+
+			&__wrapper {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			&__heading {
+				font-size: 0.8rem;
+			}
+
+			&__element {
+				padding: 0.7em 0;
+				font-size: 0.6rem;
+				text-align: center;
+			}
+		}
+	}
+
+	.footer {
+		&__text {
+			font-size: 0.6rem;
+		}
+
+		&__copy {
+			font-size: 0.55rem;
+		}
+	}
+
+	//CONTACT
+	.contact {
+		&__box {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			padding: 0 1em;
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		&__textbox {
+			display: flex;
+			margin-right: 0;
+			padding: 0 1em;
+			height: auto;
+			width: 100%;
+			border-bottom: 1px solid black;
+		}
+
+		&__text {
+			font-size: 0.9rem;
+
+			&:last-child {
+				margin-bottom: 1em;
+			}
+		}
+
+		&__imgbox {
+			margin: 0 auto;
+			padding: 0 1em;
+			width: 100%;
+			border-bottom: 1px solid black;
+
+			&-map {
+				min-width: 250px;
+				width: 80%;
+				height: 80%;
+				min-height: 250px;
+			}
+		}
+
+		&__title {
+			padding: 1em;
+		}
+	}
+
+	.form {
+		&__errortext {
+			font-size: 0.7rem;
+		}
+
+		&__inputbox {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: 0.5em;
+			width: 90%;
+		}
+
+		&__inputarea {
+			width: 85%;
+
+			&--four {
+				width: 100%;
+			}
+		}
+
+		&__label {
+			font-size: 0.8rem;
+
+			&-icon {
+				font-size: 1rem;
+			}
+		}
+
+		&__input {
+			width: 90%;
+			font-size: 0.8rem;
+		}
+
+		&__textarea {
+			max-height: 160px;
+			min-height: 160px;
+			font-size: 0.8rem;
+		}
+
+		&__control-buttons {
+			flex-direction: column;
+			width: 80%;
+		}
+
+		&__btn {
+			margin: 1em;
+			width: 60%;
+			font-size: 0.8rem;
+
+			&-close {
+				width: 100%;
+			}
+		}
+	}
+
+	.offersite {
+		&__offersiteox {
+			flex-direction: column;
+		}
+
+		&__card {
+			width: 203px;
+		}
+
+		&__text {
+			font-size: 0.8rem;
+		}
+	}
+}

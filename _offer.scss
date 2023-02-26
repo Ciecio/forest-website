@@ -1,0 +1,116 @@
+//offersiteS
+.offersite {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(185, 185, 185);
+
+	&__cardbox {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+      margin-bottom: 2em;
+		padding: 1em 1em;
+		width: 100%;
+	}
+
+	&__card {
+		display: flex;
+		flex-direction: column;
+		padding: 0.5em 1em;
+		margin: 1em;
+		height: 90%;
+		max-height: 252px;
+		width: 26%;
+        background-color: rgb(53, 52, 52);
+		border: 1px solid #ddd;
+		border-radius: 8px;
+		text-align: center;
+		box-shadow: 2px 2px 8px #ddd;
+		transition: transform .5s;
+
+		&:hover{
+			transform: scale(1.1);
+		}
+	}
+
+	&__title {
+		margin-top: 0.5em;
+		font-size: 1.3rem;
+        color:rgb(56, 240, 56);
+	}
+
+	&__price {
+		padding: 0.2em;
+		font-size: 2rem;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1px;
+
+		&::first-letter {
+			font-size: 2rem;
+            color:lime;
+		}
+
+		&-letter {
+			padding-bottom: 10px;
+			font-size: 1.7rem;
+			font-weight: bold;
+		}
+	}
+
+	&__list {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex-direction: column;
+
+		&-outof {
+			color: rgb(160, 156, 156);
+			margin: 0 auto;
+		}
+
+		&-in {
+            padding: 0;
+			margin: 0 auto;
+            color: #fff;;
+		}
+
+		.fa-check {
+			margin-right: 0.2em;
+			color: lime;
+			font-size: 0.7rem;
+		}
+
+		.fa-minus {
+			margin-right: 0.2em;
+			font-size: 0.7rem;
+		}
+	}
+
+	li {
+		// margin-left: 1em;
+		padding: 0.2em 0em;
+		font-size: 0.7em;
+	}
+
+	&__btn {
+		margin: 1.5em;
+		padding: 0.5em 2em;
+		background: none;
+		font-size: 0.8rem;
+        color: #ddd;
+		border: 1px solid #ddd;
+		border-radius: 8px;
+		box-shadow: 0 0 5px #ddd;
+		transition: background-color .5s, color .5s;
+		cursor: pointer;
+
+		&:hover{
+			background-color: rgb(8, 223, 8);
+			color:#333;
+		}
+	}
+}
