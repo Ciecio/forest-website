@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"  content="Strona przygotowana w ramach projektu cz.4 kursu tworzenia stron HTML autorstwa MMC School. Przedstawia park Forest Group.">
     <title>Forest Group - najpiękniejszy park w twojej okolicy!</title>
 
     <link rel="stylesheet" href="./main.css">
@@ -13,7 +14,8 @@
 
 <body>
 
-    <!-- NAV -->
+
+    <!-- NAV MOBILE -->
     <nav class="nav">
         <div class="nav__navbar">
             <a class="nav__navbar-element nav__element-active" id="navbar1" href="#">Home</a>
@@ -21,6 +23,7 @@
             <a class="nav__navbar-element" id="navbar3" href="#offer">Oferta</a>
             <a class="nav__navbar-element" href="https://ciecio.github.io/forest-website/contact.html">Kontakt</a>
         </div>
+        <!-- NAV -->
         <div class="nav__wrapper wrapper">
             <p class="nav__logo"><i class="fa-solid fa-tree"></i> Forest</p>
             <a class="nav__element nav__element-active" id="nav1" href="#">Home</a>
@@ -48,11 +51,8 @@
 
     <!-- MAIN  -->
     <main>
-
         <!-- ABOUTUS  -->
-
         <div class="wrapper">
-
             <section class="aboutus" id="aboutus">
                 <h2 class="aboutus__title section-title">o nas</h2>
 
@@ -74,9 +74,7 @@
                             laborum. www.MMCSchool.pl
                         </p>
                     </div>
-
                 </div>
-
             </section>
         </div>
 
@@ -87,17 +85,16 @@
             <div class="adventures__heading">
                 <h2 class="adventures__heading-text">Przygoda dla całej rodziny</h2>
             </div>
-
         </section>
 
         <!-- OFFERS  -->
-
         <div class="wrapper">
             <section class="offer" id="offer">
                 <h2 class="offer__heading section-title">Oferta</h2>
                 <p class="offer__text">Wybierz jedną z naszych wspaniałych ofert!</p>
 
                 <div class="offer__cardbox">
+
                     <div class="offer__card">
                         <p class="offer__title">Demo</p>
                         <p class="offer__price">$0</p>
@@ -136,14 +133,13 @@
                     </div>
                 </div>
 
-                        <form action="https://ciecio.github.io/forest-website/offer.html"  >
-                            <input type="submit" value="Zobacz wszystkie oferty!" class="offer__redirectbtn" />
-                        </form>
+                <form action="https://ciecio.github.io/forest-website/offer.html">
+                    <input type="submit" value="Zobacz wszystkie oferty!" class="offer__redirectbtn" />
+                </form>
             </section>
         </div>
 
-<!-- //SITEMAP -->
-
+        <!-- //SITEMAP -->
         <section class="sitemap">
             <div class="sitemap__wrapper wrapper">
 
@@ -168,15 +164,12 @@
                     <li class="sitemap__element">Wnioski</li>
                     <li class="sitemap__element">Rezerwacje</li>
                 </ul>
-
             </div>
         </section>
-
 
     </main>
 
     <!-- FOOTER  -->
-
     <footer class="footer">
         <p class="footer__text"><span class="footer__copy">&copy;2023</span> Forest Group Company Ltd</p>
     </footer>
